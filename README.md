@@ -1,4 +1,4 @@
-Welcome to Cousify Web Internship Challenge
+Welcome to Darwin Web Internship Challenge
 
 1. First extract zip file .
 2. Open the extracted folder in visual studio code.
