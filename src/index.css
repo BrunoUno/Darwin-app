@@ -1,0 +1,145 @@
+body {
+  margin: 0;
+  font-family: system-ui;
+}
+
+.login-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin-top: 50px;
+}
+
+.login-block {
+  width: 400px;
+  border: 1px solid #ced4da;
+  border-radius: 10px;
+  padding-inline: 50px;
+  padding-block: 25px;
+}
+
+.email-label label,
+.password-label label {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.email-input input,
+.password-input input {
+  width: 100%;
+  padding: 14px;
+  margin: 6px, 0;
+  border-radius: 3px;
+  box-sizing: border-box;
+  font-family: Source Sans Pro;
+  font-size: 14px;
+  border: 1px solid #ced4da;
+  background-color: rgb(232, 240, 254);
+}
+
+.login-header,
+.email-block,
+.password-block,
+.login-button {
+  margin-block: 30px;
+}
+
+.email-label,
+.password-label {
+  margin-bottom: 8px;
+}
+
+.login-button input {
+  all: unset;
+  outline: revert;
+  box-sizing: border-box;
+  width: 100%;
+  background-color: #20c997;
+  text-align: center;
+  padding: 14px;
+  border-radius: 25px;
+  color: white;
+  font-weight: 500;
+  margin-block: 18px;
+}
+
+.login-button input:hover {
+  background-color: #059862;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 30px;
+  padding-right: 40px;
+  height: 85px;
+  box-shadow: 0px 3px 7px 1px rgba(0, 0, 0, 0.07),
+    0px -3px 7px 1px rgba(0, 0, 0, 0.07);
+}
+
+.nav-brand {
+  font-size: 30px;
+  font-weight: 500;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.company-logo {
+  width: 160px;
+  height: 80px;
+}
+
+.navbar-username img {
+  width: 80px;
+  height: 80px;
+}
+
+.onOff {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pdf-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 60px;
+}
+
+.pdf-button button {
+  all: unset;
+  outline: revert;
+  box-sizing: border-box;
+  font-size: 1em;
+  padding: 10px 15px;
+  border-radius: 10px;
+  background-color: #20c997;
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  border: 1px solid transparent;
+}
+
+.pdf-button button:hover {
+  background-color: #059862;
+}
+
+.nav-logout a {
+  font-size: 1em;
+  padding: 10px 15px;
+  border-radius: 10px;
+  background-color: #20c997;
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.nav-logout a:hover {
+  background-color: #059862;
+}
